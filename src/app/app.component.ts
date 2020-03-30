@@ -54,7 +54,7 @@ export class AppComponent implements OnInit  {
           style += '; border-color:' + colors.borderColor;
           style += '; border-width: 2px';
           const span = '<span class="chartjs-tooltip-key" style="' +
-          style +'"> <img src=""/> </span>';
+          style +'"> <img src="led3.png"/> </span>';
           innerHtml += '<tr><td>' + span + body + '</td></tr>';
         });
         innerHtml += '</tbody>';
